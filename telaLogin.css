@@ -11,9 +11,9 @@ body{
     display: block;
     background-color: #e4e4e4;
     border: 1px solid #e4e4e4;
-    border-radius: 30px;
     margin: auto;
     display: block;
+    border-radius: 30px;
 }
 
 .container {
@@ -29,7 +29,6 @@ body{
     margin: auto;
     display: block;
     border-radius: 10px;
-    
 }
 
 .Escrita {
