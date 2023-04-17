@@ -1,11 +1,12 @@
-body{
+body {
     background-color: #ffdbd7;
     margin: 0;
     padding: 0;
     font-size: 20px;
     font-family: monospace;
 }
-.empresa{
+
+.empresa {
     border-top: 3px solid #414141;
     justify-content: start;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,8 +16,9 @@ body{
     display: flex;
     margin: auto;
 }
-.projeto{
-    border-top: 3px solid #414141 ;
+
+.projeto {
+    border-top: 3px solid #414141;
     justify-content: start;
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
@@ -25,36 +27,44 @@ body{
     display: flex;
     margin: auto;
 }
-.titulo{
+
+.titulo {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
     color: #414141;
+    margin-top: 14px;
 }
-.container{
+
+.container {
     width: 90%;
     margin: auto;
     display: flex;
 }
+
 .header {
     border-top: 3px solid #ffdbd7;
 }
+
 .header .container {
     justify-content: space-between;
 }
+
 .header a {
     text-decoration: none;
     color: #000000;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: space-between;
-    list-style-position: outside;   
+    list-style-position: outside;
     color: #000000;
-    width: 550px;
+    width: 600px;
     align-items: center;
 }
-.Serviços{
+
+.Serviços {
     justify-content: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 50px;
@@ -63,12 +73,14 @@ body{
     display: flex;
     margin: auto;
 }
-.letrasS{
+
+.letrasS {
     font-family: 'Times New Roman', Times, serif;
     font-size: 35px;
     color: #414141;
 }
-.sobreNOS{
+
+.sobreNOS {
     justify-content: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 50px;
@@ -77,12 +89,15 @@ body{
     display: flex;
     margin: auto;
 }
-.letrasSobre{
+
+.letrasSobre {
     font-family: 'Times New Roman', Times, serif;
     font-size: 35px;
     color: #414141;
+    width: 50%;
 }
-.Nossos{
+
+.Nossos {
     justify-content: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 50px;
@@ -91,13 +106,15 @@ body{
     display: flex;
     margin: auto;
 }
-.letrasNOSSOS{
+
+.letrasNOSSOS {
     font-family: 'Times New Roman', Times, serif;
     font-size: 35px;
     color: #414141;
     text-align: center;
 }
-.contato{
+
+.contato {
     justify-content: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 25px;
@@ -106,7 +123,8 @@ body{
     display: flex;
     margin: auto;
 }
-button {
+
+.button {
     display: flex;
     margin: auto;
     width: 95%;
@@ -120,25 +138,26 @@ button {
     color: #414141;
     box-shadow: 0 0.4rem #dfd9d9;
     cursor: pointer;
-   }
-   
-   button:active {
+}
+
+.button:active {
     color: white;
     box-shadow: 0 0.2rem #ee9589;
     transform: translateY(0.2rem);
-   }
-   
-   button:hover:not(:disabled) {
+}
+
+.button:hover:not(:disabled) {
     background: #ffffff;
     color: white;
     text-shadow: 0 0.1rem #bcb4b4;
-   }
-   
-   button:disabled {
+}
+
+.button:disabled {
     cursor: auto;
     color: #000000;
 }
-.nossosValoresCAIXA{
+
+.nossosValoresCAIXA {
     width: 300px;
     height: 90%;
     display: block;
@@ -150,7 +169,8 @@ button {
     display: block;
     border-radius: 30px;
 }
-.nossosValoresCAIXA2{
+
+.nossosValoresCAIXA2 {
     width: 300px;
     height: 90%;
     display: block;
@@ -162,7 +182,8 @@ button {
     display: block;
     border-radius: 30px;
 }
-.nossosValoresCAIXA3{
+
+.nossosValoresCAIXA3 {
     width: 375px;
     height: 90%;
     display: block;
@@ -175,3 +196,7 @@ button {
     border-radius: 30px;
 }
 
+button a{
+    text-decoration: none;
+    color: #000000;
+}
