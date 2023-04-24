@@ -5,9 +5,11 @@
     var senha = Number(ipt_senha.value);
 
     if(    
-    nomeEmpresa.toLowerCase() == 'adriana florista ltda' ||
+    nomeEmpresa.toLowerCase() == 'adriana florista ltda' &&
+    senha == 00000 ||
     
-    nomeEmpresa.toLowerCase() == 'floresfloridas@gmail.com' ||
+    nomeEmpresa.toLowerCase() == 'floresfloridas@gmail.com' &&
+    senha == 00000 ||
 
     nomeEmpresa.toLowerCase() == 'Lilian Nara' &&
     
