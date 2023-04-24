@@ -52,7 +52,7 @@ function calc(){
         contratoSim.innerHTML = `
         <h2>Com o nosso sistema:</h2>
 
-        <p>Nosso produto, o <b id="FioreMove">FioreMove</b>, tem como proposta diminuir as perdas em até <b>50%</b>, o que equivale a <b>${porcentagemPerdidaCS * 100}%</b> de rosas perdidas de todas as rosas, que representa uma redução de prejuízo de <b>R$${prejuizoCS}</b> e seu lucro líquido seria de <b>R$${lucroLiquidoCS}</b></p>
+        <p>Nosso produto, o <b id="FioreMove">FioreMove</b>, tem como proposta diminuir as perdas em até <b>METADE</b>, com nosso produto, o que equivale a <b>${porcentagemPerdidaCS * 100}%</b> de rosas perdidas de todas as rosas, que representa uma redução de prejuízo de <b>R$${prejuizoCS}</b> e seu lucro líquido seria de <b>R$${lucroLiquidoCS}</b></p>
         `
         // `Com base em pesquisas comparando transportes com sistemas de monitoramento e transportes sem sistemas, concluiu-se que, os caminhões que possuem sensores e maneiras de consultar dados do ambiente em que as cargas estão, a perda já existente, abaixa em uma estimativa de 50%(?), ou seja, o desperdício vai de 40% para 20%, representando <strong>${pesoTransporte * (0.8)}${medidaDePeso}</strong>, e um lucro de <strong>${moeda} ${(pesoTransporte * 0.8) * lucroTransporte}</strong> reduzindo os gastos, e consequentemente proporcionando um diferencial, além de diminuir problemas como reclamações de cargas em mal estado e etc. `
     }
