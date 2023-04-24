@@ -17,11 +17,11 @@ body{
   }
 
   .container {
-    width: 100%;
+    width: auto;
     border: 5px solid transparent;
     display: flex;
     justify-content:space-evenly;
-    height: 500px;
+    height: auto;
     align-items: center;
   }  
 
