@@ -16,7 +16,7 @@
     senha == 00000 
 
     ){
-        window.location.href = "chartjsFIORE.html"
+        window.location.href = "novografico.html"
     }else{
         alert(`Email ou senha podem estar incorretos`)
     };
